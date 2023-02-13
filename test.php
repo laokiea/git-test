@@ -5,4 +5,4 @@ function push(int $a):int{
 }
 
 
-print_r(push(30));
+print_r(push(2000));
