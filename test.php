@@ -6,3 +6,10 @@ function push(int $a):int{
 
 
 print_r(push(3));
+
+function judge(int $v) : bool {
+	if ($v == 1) {
+		return true;
+	}
+	return false;
+}
