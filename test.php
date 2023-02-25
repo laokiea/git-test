@@ -13,3 +13,5 @@ function judge(int $v) : bool {
 	}
 	return false;
 }
+
+function doNothing() : null {}
