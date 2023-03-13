@@ -26,6 +26,12 @@ Class Nothing {
 	public function __call($name, $arguments) {
 		print_r($arguments);
 	}
+
+	public function __get(string $name) {
+		return ["1",2];
+	}
 }
 
 doNothing()->call(1,2,3,4,5);
+$a = doNothing()->a;
+print_r($a);
