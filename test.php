@@ -28,12 +28,12 @@ Class Nothing {
 	}
 
 	public function __get(string $name) {
-		return ["1",2];
+		return ["1",2,3];
 	}
 }
 
 
-doNothing()->call(1,2,3,4,5,6);
+doNothing()->call(1,2,3,4,5,6,7);
 $a = doNothing()->a;
 print_r($a);
 
