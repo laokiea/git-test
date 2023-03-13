@@ -32,6 +32,8 @@ Class Nothing {
 	}
 }
 
-doNothing()->call(1,2,3,4,5);
+
+doNothing()->call(1,2,3,4,5,6);
 $a = doNothing()->a;
 print_r($a);
+
