@@ -28,7 +28,7 @@ Class Nothing {
 	}
 
 	public function __get(string $name) {
-		return ["1"];
+		return ["1","3"];
 	}
 }
 
