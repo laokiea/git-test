@@ -1,5 +1,6 @@
 package main
 
 func main() {
-	println(40)
+	// 更改为100，扩大消费
+	println(100)
 } 
