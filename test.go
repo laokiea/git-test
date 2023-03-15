@@ -1,5 +1,6 @@
 package main
 
 func main() {
-	println(50)
+	// 减少消费
+	println(20)
 }
