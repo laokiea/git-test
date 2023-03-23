@@ -36,3 +36,17 @@ doNothing()->call(1,2,3,4,5);
 $a = doNothing()->a;
 print_r($a);
 
+
+// debug
+Class Debug implements \JsonSerializable {
+	public function jsonSerialize() : array {
+			return array(
+				"class_name" => get_class(),
+			);
+	}
+}
+
+$debug = new Debug;
+if ($debug instanceof \JsonSerializable) {
+	print_r(json_encode($debug));
+}
